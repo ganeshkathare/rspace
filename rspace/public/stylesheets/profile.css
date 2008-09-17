@@ -1,0 +1,137 @@
+/* Profile Styles */
+td.label {
+text-align: right;
+font-weight: bold;
+white-space: nowrap;
+}
+input {
+font-family: sans-serif;
+}
+.edit_link a {
+text-decoration: none;
+color: blue;
+}
+#left_column {
+float: left;
+margin-top: -15px;
+width: 250px;
+
+}
+#right_column {
+float: right;
+width: 240px;
+font-family: sans-serif;
+font-size:11px;
+margin-top: -15px;
+margin-right: 5px;
+
+}
+#index_column {
+float: right;
+width: 500px;
+font-family: sans-serif;
+font-size:11px;
+margin-right: 10px;
+}
+#mn_content {
+margin-top: 20px;
+margin-left: 10px;
+margin-right: 150px;
+}
+#main_content {
+margin-top: 150px;
+margin-left: 10px;
+margin-right: 150px;
+}
+.sidebar_box {
+background-color: #f6f6f6;
+border: 1px solid #595959;
+font-family: sans-serif;
+font-size:10px;
+margin-right: 7px;
+margin-bottom: 10px;
+width:245px;
+
+}
+.sidebar_box h2 {
+margin-top: 0px;
+padding: 6px;
+background-color: #ccc;
+font-size: 10px;
+font-family: sans-serif;
+color: maroon;
+font-weight:bold;
+}
+.sidebar_box p {
+padding-left: 3px;
+padding-right: 3px;
+}
+.sidebar_box .header {
+float: left;
+color: #D21204;
+font-weight: bold;
+font-size:11px;
+}
+.sidebar_box .edit_link {
+float: right;
+}
+
+/* Spec Style */
+#full_name {
+font-size: xx-large;
+}
+#occupation{
+font-size: x-large;
+}
+#location {
+font-size: large;
+}
+
+/* FAQ Style */
+.faq {
+float: left;
+padding: 20px;
+}
+#bio {
+padding: 10px;
+}
+.sidebar_box_contents, .faq_answer {
+padding: 0 2px 2px 2px;
+margin-left: 2px;
+font-size: x-small;
+font-weight:normal;
+}
+.faq_answer textarea {
+width: 180px;
+background: #ff9;
+}
+
+/* Blog Styles */
+.post {
+display: block;
+margin-bottom: 1.5em;
+margin-right: 10px;
+}
+.post_title {
+font-weight: bold;
+}
+.post_body {
+padding: 2px;
+}
+.post_creation_date, .post_modification_date {
+text-align: right;
+}
+.post_actions {
+float: right;
+}
+
+/* Comment Styles */
+.comment {
+min-height: 90px;
+}
+.thumbnail {
+display: block;
+float: left;
+margin-right: 1em;
+}
+
